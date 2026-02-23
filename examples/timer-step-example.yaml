@@ -1,0 +1,18 @@
+- defaultTab: nodes
+  description: Example job using timer-job-step
+  executionEnabled: true
+  id: 5d3d96a9-a972-44aa-b32e-9a2d3b6f0ef1
+  loglevel: INFO
+  name: Example - Timer Step
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+      - description: Pause for 10 seconds using Timer Job Step
+        configuration:
+          pauseDuration: '10'
+        nodeStep: false
+        type: timer-job-step
+      - exec: echo "Timer finished, continuing workflow"
+    keepgoing: false
+    strategy: node-first

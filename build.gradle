@@ -1,0 +1,39 @@
+plugins {
+  id 'java'
+}
+
+group = 'com.plugin'
+version = '1.0.1'
+
+java {
+  sourceCompatibility = JavaVersion.VERSION_11
+  targetCompatibility = JavaVersion.VERSION_11
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.rundeck:rundeck-core:5.19.0-20260202'
+}
+
+jar {
+  archiveBaseName.set('timer-job-step')
+  manifest {
+    attributes(
+      'Rundeck-Plugin-Classnames': 'com.plugin.timerjobstep.TimerJobStep',
+      'Rundeck-Plugin-File-Version': project.version,
+      'Rundeck-Plugin-Version': '2.0',
+      'Rundeck-Plugin-Archive': 'true',
+      'Rundeck-Plugin-Name': 'timer-job-step',
+      'Rundeck-Plugin-Description': 'Adds a bounded pause step for job workflows (10 seconds to 10 minutes).',
+      'Rundeck-Plugin-Author': 'rundecktoolkit community',
+      'Rundeck-Plugin-Rundeck-Compatibility-Version': '5.x',
+      'Rundeck-Plugin-Tags': 'java,WorkflowStep,timer,pause,wait',
+      'Rundeck-Plugin-License': 'MIT',
+      'Rundeck-Plugin-Source-Link': 'https://github.com/rundecktoolkit/plugin-workflow-timer',
+      'Rundeck-Plugin-Target-Host-Compatibility': 'all'
+    )
+  }
+}
