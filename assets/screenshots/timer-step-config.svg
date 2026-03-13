@@ -1,0 +1,51 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F4F7F4"/>
+  <rect x="86" y="48" width="1028" height="804" rx="22" fill="#FFFFFF" stroke="#D7E1D7"/>
+  <rect x="86" y="48" width="1028" height="84" rx="22" fill="#EEF5EE"/>
+  <text x="126" y="101" fill="#1F4F2E" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Timer Job Step Configuration</text>
+  <text x="126" y="168" fill="#233028" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Timer Configuration</text>
+  <text x="126" y="208" fill="#5A675D" font-family="Arial, Helvetica, sans-serif" font-size="16">Adds a bounded pause to a workflow. Keep this short to avoid holding execution resources for long periods.</text>
+  <text x="126" y="280" fill="#243029" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Pause Duration *</text>
+  <text x="126" y="312" fill="#5A675D" font-family="Arial, Helvetica, sans-serif" font-size="16">How long to pause this job step. Maximum is 10 minutes.</text>
+  <rect x="126" y="340" width="460" height="56" rx="12" fill="#F8FAF8" stroke="#BFD0BF"/>
+  <text x="148" y="374" fill="#1D2A20" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">10 seconds</text>
+  <path d="M548 364L560 376L572 364" stroke="#4F5E53" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="622" y="236" width="430" height="500" rx="18" fill="#FAFCFA" stroke="#DDE6DD"/>
+  <text x="654" y="278" fill="#243029" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Allowed Values</text>
+  <text x="654" y="320" fill="#5A675D" font-family="Arial, Helvetica, sans-serif" font-size="16">Only fixed short waits are exposed in the UI.</text>
+  <rect x="654" y="350" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="693" y="373" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">10 seconds</text>
+  <rect x="836" y="350" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="875" y="373" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">20 seconds</text>
+  <rect x="654" y="402" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="693" y="425" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">30 seconds</text>
+  <rect x="836" y="402" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="883" y="425" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">45 seconds</text>
+  <rect x="654" y="454" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="711" y="477" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">1 minute</text>
+  <rect x="836" y="454" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="862" y="477" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">1 minute 30 seconds</text>
+  <rect x="654" y="506" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="709" y="529" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">2 minutes</text>
+  <rect x="836" y="506" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="891" y="529" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">3 minutes</text>
+  <rect x="654" y="558" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="709" y="581" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">4 minutes</text>
+  <rect x="836" y="558" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="891" y="581" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">5 minutes</text>
+  <rect x="654" y="610" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="709" y="633" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">6 minutes</text>
+  <rect x="836" y="610" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="891" y="633" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">7 minutes</text>
+  <rect x="654" y="662" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="709" y="685" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">8 minutes</text>
+  <rect x="836" y="662" width="166" height="36" rx="18" fill="#EAF3E7"/>
+  <text x="891" y="685" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">9 minutes</text>
+  <rect x="654" y="714" width="348" height="36" rx="18" fill="#DFF0D8"/>
+  <text x="768" y="737" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">10 minutes (maximum)</text>
+  <rect x="126" y="450" width="428" height="188" rx="18" fill="#FFF8EC" stroke="#F2D5A7"/>
+  <text x="154" y="490" fill="#7B4B00" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Operational note</text>
+  <text x="154" y="532" fill="#7B5A25" font-family="Arial, Helvetica, sans-serif" font-size="17">This step intentionally blocks the workflow for a short period.</text>
+  <text x="154" y="566" fill="#7B5A25" font-family="Arial, Helvetica, sans-serif" font-size="17">The plugin prevents values longer than 10 minutes.</text>
+  <text x="154" y="600" fill="#7B5A25" font-family="Arial, Helvetica, sans-serif" font-size="17">For longer delays, use scheduled follow-up jobs instead.</text>
+</svg>

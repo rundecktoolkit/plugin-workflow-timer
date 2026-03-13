@@ -1,0 +1,33 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#F4F7F4"/>
+  <rect x="52" y="40" width="1096" height="680" rx="20" fill="#FFFFFF" stroke="#D7E1D7"/>
+  <rect x="52" y="40" width="1096" height="72" rx="20" fill="#EEF5EE"/>
+  <rect x="84" y="62" width="230" height="28" rx="14" fill="#D9EAD9"/>
+  <text x="101" y="81" fill="#1F4F2E" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Add Workflow Step</text>
+  <rect x="84" y="146" width="360" height="44" rx="12" fill="#F7F9F7" stroke="#D7E1D7"/>
+  <text x="104" y="174" fill="#55635A" font-family="Arial, Helvetica, sans-serif" font-size="16">Search step types</text>
+  <rect x="84" y="220" width="1032" height="160" rx="16" fill="#FAFCFA" stroke="#C7D8C7"/>
+  <rect x="108" y="248" width="64" height="64" rx="16" fill="#5C9E3D"/>
+  <circle cx="140" cy="280" r="18" fill="#FFFFFF"/>
+  <path d="M140 266V280L148 288" stroke="#5C9E3D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="196" y="272" fill="#15261A" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Timer Job Step</text>
+  <text x="196" y="304" fill="#4F5C52" font-family="Arial, Helvetica, sans-serif" font-size="18">Pauses a workflow for a selected duration (10 seconds to 10 minutes).</text>
+  <rect x="196" y="326" width="152" height="30" rx="15" fill="#E8F1E7"/>
+  <text x="220" y="346" fill="#2F6A23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">WorkflowStep</text>
+  <rect x="84" y="414" width="492" height="240" rx="16" fill="#FAFCFA" stroke="#E2EAE2"/>
+  <text x="108" y="450" fill="#243029" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Preview</text>
+  <text x="108" y="488" fill="#506054" font-family="Arial, Helvetica, sans-serif" font-size="16">Plugin ID</text>
+  <text x="244" y="488" fill="#15261A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">timer-job-step</text>
+  <text x="108" y="526" fill="#506054" font-family="Arial, Helvetica, sans-serif" font-size="16">Config group</text>
+  <text x="244" y="526" fill="#15261A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Timer Configuration</text>
+  <text x="108" y="564" fill="#506054" font-family="Arial, Helvetica, sans-serif" font-size="16">Default duration</text>
+  <text x="244" y="564" fill="#15261A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">10 seconds</text>
+  <text x="108" y="602" fill="#506054" font-family="Arial, Helvetica, sans-serif" font-size="16">Range</text>
+  <text x="244" y="602" fill="#15261A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">10 seconds to 10 minutes</text>
+  <rect x="610" y="414" width="506" height="240" rx="16" fill="#1C2A20"/>
+  <text x="638" y="452" fill="#B6C7B8" font-family="Menlo, Consolas, monospace" font-size="18">$ job workflow</text>
+  <text x="638" y="500" fill="#FFFFFF" font-family="Menlo, Consolas, monospace" font-size="18">1. Timer Job Step</text>
+  <text x="668" y="536" fill="#84D16A" font-family="Menlo, Consolas, monospace" font-size="17">pauseDuration = 10</text>
+  <text x="638" y="584" fill="#FFFFFF" font-family="Menlo, Consolas, monospace" font-size="18">2. Continue workflow</text>
+  <text x="638" y="628" fill="#B6C7B8" font-family="Menlo, Consolas, monospace" font-size="16">Short waits only. Long pauses should use scheduling instead.</text>
+</svg>

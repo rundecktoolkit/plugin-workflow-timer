@@ -7,6 +7,7 @@
 <p align="center">
   <a href="#installation">Installation</a> •
   <a href="#configuration">Configuration</a> •
+  <a href="#screenshots">Screenshots</a> •
   <a href="#usage">Usage</a> •
   <a href="#examples">Examples</a> •
   <a href="#support">Support</a>
@@ -53,6 +54,16 @@ Download the latest JAR from [Releases](https://github.com/rundecktoolkit/plugin
 | Parameter | Required | Default | Description |
 |-----------|:--------:|---------|-------------|
 | `pauseDuration` | ✓ | `10` | Pause duration in seconds (`10,20,30,45,60,90,120,180,240,300,360,420,480,540,600`) |
+
+## Screenshots
+
+### Step picker
+
+![Timer Job Step picker](./assets/screenshots/timer-step-picker.svg)
+
+### Step configuration
+
+![Timer Job Step configuration](./assets/screenshots/timer-step-config.svg)
 
 ## Usage
 
